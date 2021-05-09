@@ -28,7 +28,7 @@ public class AppSpecificWrapper extends GenericWrappers{
 	@BeforeMethod
 	public void bm() {
 		startTestCase(testNodes);
-		launchAndroidApp("Gopi Phone", "com.testleaf.leaforg", "com.testleaf.leaforg.MainActivity", "", "");
+		launchAndroidApp("emulator-5554", "com.testleaf.leaforg", "com.testleaf.leaforg.MainActivity", "", "");
 		switchWebview();
 	}
 	
